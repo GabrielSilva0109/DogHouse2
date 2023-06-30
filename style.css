@@ -464,6 +464,24 @@ main .sobre {
     margin-bottom: 20px;
 }
 
+.meus_hospedes ul li video{
+    cursor: pointer;
+    border-radius: 14px;
+    position: relative;
+    display: grid;
+    gap: 30px;
+    text-align: center;
+    max-width: 300px;
+    align-content: center;
+    height: 300px;
+    background: #000000;
+}
+
+.meus_hospedes ul li video:hover{
+    Transform: scale(1.8);
+    transition: 1s;
+    z-index: 1;
+}
 
 /* ============ Meu Espaço =============== */ 
 .espaco {
