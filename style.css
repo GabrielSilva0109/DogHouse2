@@ -128,6 +128,7 @@ header .navegacao-primaria li a:hover::after {
         transform: translate3d(0, 0, 0);
     }
 }
+
 /* ============ Sobre =============== */  
 main {
     border-radius: 14px;
@@ -259,6 +260,7 @@ main .sobre {
     transition: 1s;
     z-index: 1;
 }
+
 .sobre_info i {
     color: #ffff00;
     display: inline-block;
@@ -355,7 +357,7 @@ main .sobre {
 
 
 @media(max-width: 992px) {
-    .sobre img {
+    .sobre video {
         grid-column: 1/-1;
         justify-self: center;
     }
