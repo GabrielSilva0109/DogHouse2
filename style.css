@@ -341,7 +341,8 @@ main .sobre {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 20px;
+    margin-top: 40px;
+    
 }
 
 
