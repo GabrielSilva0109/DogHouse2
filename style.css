@@ -475,11 +475,10 @@ main .sobre {
     gap: 10px;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
   }
 
   .pessoa {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -585,7 +584,7 @@ main .sobre {
 }
 
 .espaco_titulo {
-    margin: 30px 0;
+    margin-bottom: 40px;
     grid-column: 1/-1;
     text-align: center;
     color: #fff;
@@ -616,7 +615,7 @@ main .sobre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #232323;
 }
 
 .meu_espaco ul {
@@ -638,9 +637,6 @@ main .sobre {
     align-content: center;
     height: 300px;
 }
-
-
-
 
 .meu_espaco ul li img:hover{
     Transform: scale(1.8);
@@ -729,7 +725,7 @@ main .sobre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #232323;
     margin-bottom: 50px;
 }
 
