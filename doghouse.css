@@ -132,7 +132,7 @@ header .navegacao-primaria li a:hover::after {
 /* ============ Sobre =============== */  
 main {
     border-radius: 14px;
-    background-color: #111;
+    background-color: #222222;
     color: white;
 }
 
@@ -487,6 +487,10 @@ main .sobre {
     background: #1111111d;
     border-radius: 14px;
     padding: 15px;    
+  }
+
+  .pessoa img{
+    border-radius: 50%;
   }
   
   .review img {
