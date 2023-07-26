@@ -67,6 +67,9 @@ header .navegacao-primaria li a:hover::after {
     border-bottom: 4px solid #ffff00;
 }
 
+
+/* ---------- Home ------------*/
+
 .home {
     animation: inicializar .7s forwards;
     display: grid;
@@ -115,6 +118,19 @@ header .navegacao-primaria li a:hover::after {
     border-radius: 50%;
 }
 
+@media (max-width: 800px){
+    .logo{
+        margin-left: 150px;
+       
+    }
+    .home {
+       height: 800px;
+       margin-top: -200px;
+    }
+    .home img{
+        display: none;
+    }
+}
 
 @keyframes inicializar {
     from {
@@ -337,23 +353,40 @@ main .sobre {
     }
 }
 
-.atributos ul {
+
+.atributos {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     margin-top: 40px;
-}
-.atributos ul p{
+    overflow-x: auto;
+  }
+
+  .atributos ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .atributos ul p{
     color: #222;
     font-weight: bold;
     font-size: 0.8rem;
-}
-.atributos ul span{
+  }
+
+  .atributos ul span{
     font-size: 5rem;
     color: #ffff00 ;
-}
+  }
 
+@media(max-width: 800px){
+    .atributos ul{
+        overflow-x:scroll;
+    }
+}
 
 @media(max-width: 992px) {
     .sobre video {
