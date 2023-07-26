@@ -89,7 +89,6 @@
             
         </ul>
     </section>
-  
 
     <section id="responsaveis" class="responsaveis">
         <div class="responsaveis_titulo">
@@ -144,6 +143,7 @@
                 <span></span>
             </div>
         </div>
+
         <div class="review">
             <div class="pessoa">
               <img src="./img/perfilDog2.jpg" alt="Foto da pessoa" />
@@ -330,7 +330,30 @@
         </nav>
         <p class="footer_comercial">Todos os direitos reservados &copy;<a target="_blank" href="https://gabrielsilva0109.github.io/GabrielSilva/">GabrielSilva</a> - 2023</p>
     </footer> 
-    <script src="index.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".swiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 2,
+      slideShadows: true
+    },
+    spaceBetween: 60,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    }
+  });
+  </script>
 
 </body>
 </html>
