@@ -552,7 +552,17 @@ main .sobre {
     font-weight: bold;
   }
 
-  
+@media (max-width:800px){
+    .review{
+        display: block;
+        
+    }
+    .pessoa{
+        width: 500px;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+} 
 /* ============ Hospedes =============== */ 
 
 .hospedes{
