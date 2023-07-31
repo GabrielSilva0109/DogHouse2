@@ -465,6 +465,17 @@ main .sobre {
     background-color: #ffff00;
 }
 
+@media (max-width: 800px){
+    .responsaveis img{
+        display: none;
+    }
+    .nomeGabriel{
+        margin-left: 0px;
+    }
+    .sobre_texto{
+        max-width: 400px;
+    }
+}
 /* ============ Avaliação =============== */ 
 
 .avaliacao_titulo {
