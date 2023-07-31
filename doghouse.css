@@ -632,6 +632,12 @@ main .sobre {
     z-index: 1;
 }
 
+@media(max-width: 800px){
+    .hospedes{
+        height: auto;
+    }
+}
+
 /* ============ Meu Espaço =============== */ 
 .espaco {
     margin-top: 50px;
@@ -755,13 +761,16 @@ main .sobre {
     align-items: center;
 }
 
+
 .footer_titulo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2.8rem;
     color: #000000;
     margin-bottom: 15px;
     font-family: 'Berkshire Swash', cursive;
-    margin-left: 450px;
-    margin-top: 50px;
+    
 }
 
 .footer_titulo p {
@@ -835,7 +844,11 @@ footer .footer_comercial a{
     color: #00cd90;
 }
 
-
+@media(max-width: 800px){
+    .mapaGoogle{
+        display: none;
+    }
+}
 
 
 
