@@ -550,6 +550,10 @@ main .sobre {
     font-weight: bold;
   }
 
+  div{
+    
+  }
+
 @media (max-width:800px){
     .review{
         display: block;
