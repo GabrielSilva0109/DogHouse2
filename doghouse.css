@@ -130,19 +130,16 @@ header .navegacao-primaria li a:hover::after {
     .home img{
         display: none;
     }
+    
 }
-
-@keyframes inicializar {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -60px, 0);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
+/* CSS para telas maiores que 800px */
+@media (min-width: 801px) {
+    .atributos {
+        display: block; /* Ou qualquer outra propriedade de display que você esteja usando */
     }
 }
+
+
 
 /* ============ Sobre =============== */  
 main {
@@ -383,9 +380,10 @@ main .sobre {
   }
 
 @media(max-width: 800px){
-    .atributos ul{
-        overflow-x:scroll;
+    .atributos{
+        display: none;
     }
+    
 }
 
 @media(max-width: 992px) {
@@ -525,7 +523,7 @@ main .sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    max-width: 100%;
     height: 420px;
     background: #1111111d;
     border-radius: 14px;
